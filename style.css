@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body{
+  text-align: center;
+  background-color: #F6E9E3;
+  width: 80%;
+}
+
+h1 {
+  color: rgb(224, 159, 137);
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(239, 150, 95);
+  font-weight: bold;
+}
+
+h3 {
+  color: #6B6468;
+  font-family: cursive;
+  display: block;
+  font-size: 17px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  color: black;
+  font-style: italic;
+}
+
+.presentation {
+  width: 75;
+  background: rgb(239, 135, 113, 50%);
+  padding: 10px;              /* Internal space */
+  border-radius: 4px;         /* Small radius */
+  margin: 30px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 280px;
+}
+
+#btn_w{
+  background-color: #6B6468;
+  border-radius: 4px;
+  padding: 10px;
+}
+a {
+  color: #e6c184;
+  text-decoration: none;
+  font-family: Merriweather;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#footer{
+  width: 50%;
+  background: rgb(229, 223, 219);
+  padding: 15px;
+  border-radius: 4px;
+  margin: 30px auto;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 30%);
+}
+
+.fab{
+  font-size: 30px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .footer {
+    width: 70px;
+  }
+}
